@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #2a0d02;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Share</title>
+  <line class="a" x1="14" y1="21" x2="34" y2="11"/>
+  <line class="a" x1="15" y1="29" x2="28" y2="37"/>
+  <circle class="a" cx="8.5" cy="25.5" r="7.5"/>
+  <circle class="a" cx="41.5" cy="8.5" r="7.5"/>
+  <circle class="a" cx="42.5" cy="42.5" r="7.5"/>
+</svg>

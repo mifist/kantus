@@ -1,0 +1,103 @@
+.link {
+	position: relative;
+	margin-left: 40px;
+	@include transition(all .5s);
+	text-transform: uppercase;
+	color: $menu-active-color;
+	font-family: $font-osans;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+	&:before {
+		content: '';
+		position: absolute;
+		width: 30px;
+		height: 3px;
+		background: $main-color;
+		display: inline-block;
+		left: -40px;
+		top: 50%;
+		opacity: 0;
+		@include transition(all .5s);
+	}
+	&:hover {
+		text-decoration: none;
+		color: $link-hover-color;
+		&:before {
+			background: $link-hover-color;
+			opacity: 1;
+		}
+	}
+}
+.btn-submit,
+.btn-how {
+	text-transform: uppercase;
+	border: 2px solid $main-color;
+	color: $main-color;
+	background: $white;
+	@include transition(all .3s);
+	&:hover,
+	&:focus {
+		background: $main-color;
+		color: $white;
+	}
+}
+.btn-how {
+	display: block;
+	padding: 20px 25px;
+	text-transform: uppercase;
+	width: 100%;
+	margin: 15px auto;
+	max-width: 265px;
+	text-align: center;
+}
+.btn-more {
+	font-size: 16px;
+	line-height: 24px;
+	font-family: $font-osans;
+	text-transform: uppercase;
+	display: flex;
+	text-align: center;
+	font-weight: 700;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: $txt-color;
+	@include transition(all .3s);
+	text-decoration: none;
+	#load-more {
+		margin-right: 15px;
+	}
+	&:hover {
+		text-decoration: none;
+		#load-more {
+			.a, .b {
+				stroke: $main-color;
+			}
+		}
+	}
+}
+.btn-download {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: $txt-color;
+	display: block;
+	text-align: left;
+	width: 100%;
+	text-decoration: none;
+	#download {
+		display: block;
+	}
+	&:hover {
+		text-decoration: none;
+		color: $txt-color;
+		#download {
+			.a {
+				stroke: $main-color;
+			}
+		}
+	}
+}

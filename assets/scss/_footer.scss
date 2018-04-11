@@ -1,0 +1,154 @@
+.footer {
+	margin-top: 40px;
+	padding-left: 70px;
+	font-size: 12px;
+	a {
+		color: $footer-txt-color;
+		background: transparent;
+		&:hover {
+			color: $white;
+			background: transparent;
+		}
+	}
+	p, span, b, em, i, strong, li, div {
+		color: $footer-txt-color;
+		font-size: inherit;
+	}
+}
+.footer-top {
+	background: #401403;
+	padding-top: 45px;
+	padding-bottom: 40px;
+	.top-wrap {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+.top-wrap-revers {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+.footer-bottom {
+	background: #2a0d02;
+	padding: 25px 0;
+}
+.copyright {
+	margin-bottom: 25px;
+}
+.policy-link {
+	text-align: right;
+	display: block;
+}
+.footer-share {
+	padding-left: 0;
+	margin: 0;
+	li {
+		a {
+			background: transparent;
+			padding: 0;
+			margin-bottom: 5px;
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+	&.social {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		li {
+			a {
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50px;
+				height: 50px;
+				border: 2px solid $footer-txt-color;
+				padding: 5px;
+				color: $footer-txt-color;
+				i, .fa, &.fa {
+					font-size: 30px;
+				}
+				&:hover {
+					border: 2px solid $white;
+					color: $white;
+					i, .fa, &.fa {
+						color: $white;
+					}
+				}
+			}
+			&:not(:last-child) {
+				margin-right: 30px;
+			}
+		}
+		
+	}
+}
+.footer-nav {
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	li {
+		a {
+			padding: 10px;
+			background: transparent;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-family: $font-osans;
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+}
+
+
+/* Modal */
+.modal.in .modal-dialog {
+	
+	.modal-content {
+		border-radius: 0;
+		background: $white;
+		color: $main-color;
+		text-transform: uppercase;
+		text-align: center;
+		p, span, b, i, strong, em, h1, h2, h3, h4, h5, h6 {
+			color: $main-color;
+		}
+		.footer-share {
+			a {
+				border: 2px solid $main-color;
+				&:hover {
+					border: 2px solid $main-color;
+					background: $main-color;
+					color: $white;
+					i, i.fa, .fa, &.fa {
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+	.modal-header {
+		border: none;
+	}
+}
+.close {
+	outline: none;
+	@include transition(all .3s);
+	&:hover,
+	&:focus,
+	&:active {
+		outline: none;
+		opacity: 1;
+	}
+}

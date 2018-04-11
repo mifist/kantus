@@ -1,0 +1,129 @@
+$main-color: #d65828;
+$body-color: #f4f4f4;
+$txt-color: #2a0d02;
+$menu-active-color: #d65828;
+$link-hover-color: #99401d;
+$footer-txt-color: #c6b9b4;
+
+$white: #fff;
+$black: #000;
+
+// Fonts
+$font-roboto: 'Roboto Slab', serif;
+$font-osans: 'Open Sans', sans-serif;
+
+
+@mixin transition($transition...) {
+	-moz-transition:    $transition;
+	-o-transition:      $transition;
+	-webkit-transition: $transition;
+	transition:         $transition;
+}
+
+
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes endspin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Video */
+// THE BUTTON
+.playbutton{
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:100px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-50px;
+	text-indent: -9999;
+	color:transparent;
+	z-index: 100;
+	@include transition(all .6s ease-out);
+	
+	&:before{
+		content: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Cdefs%3E%3Cstyle%3E .a %7B fill: none; stroke: %23fff; stroke-miterlimit: 10; stroke-width: 2px; %7D %3C/style%3E%3C/defs%3E%3Ctitle%3EPlay%3C/title%3E%3Cpath class='a' d='M34,32,16.69,48.4A1,1,0,0,1,15,47.68V2.37a1,1,0,0,1,1.7-.72L40.83,25.16'/%3E%3C/svg%3E%0A");
+		position:absolute;
+		top: 25px;
+		left: 25px;
+		display: block;
+		width: 0;
+		height: 0;
+		//border-top: 20px solid transparent;
+		//border-bottom: 20px solid transparent;
+		//border-left: 30px solid #FFF;
+		@include transition(all .6s ease-out);
+	}
+	&:after{
+		content:'';
+		opacity: 0;
+		position: absolute;
+		top:25px;
+		left:40px;
+		display: block;
+		width:30px;
+		height:50px;
+		border-left:2px solid #FFF;
+		border-right:2px solid #FFF;
+		@include transition(all .6s ease-out);
+		// FORCE 3D
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+	&:hover{
+		&:after{
+			opacity: 1;
+			width:150px;
+			left:-25px;
+		}
+	}
+	&.loading{
+		&:before{
+			opacity: 0;
+		}
+		&:after{
+			opacity: 1;
+			width:150px;
+			left:-25px;
+			border-radius:3px;
+			animation: spin .8s linear infinite;
+		}
+	}
+	&.playing{
+		top:90%;
+		right: 90%;
+		left: initial;
+		&:after{
+			animation: endspin .8s linear;
+			animation-iteration-count: 1;
+			top:30px;
+			left:40px;
+			width:30px;
+			opacity: 1;
+		}
+		&:before{
+			opacity: 0;
+		}
+		&:hover{
+			&:after{
+				opacity: 1;
+			}
+		}
+		&.paused{
+			&:before{
+				opacity: 1;
+			}
+			&:after{
+				opacity: 0;
+			}
+		}
+	}
+}
