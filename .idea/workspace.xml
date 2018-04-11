@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc41c6f3-01a2-465d-9e46-2f53068e5e52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/color-bucket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/electrical-current.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/filter-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/manufactured.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/menu-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/plug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/share-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/tabs2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/cat-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/cat-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/cat-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/cat-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/dan-gold-220226.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/home-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/insp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/sasha-dasha-bakani-353398.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/tab1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/tab2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/tab3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/tab4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/images/video2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logo/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/cat-prod-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/cat-prod-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/cat-prod-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/product-item-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/product-item-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/products/produt-item-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/video/Schneider_Electric_Success_Story.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/site-kantu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/_bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/_inspiration.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/kantu-css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/Menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/Share.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/box-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/icons/close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_catalog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_home.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_inspiration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_media_queries.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/kantu-css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog-product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inspiration-item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inspiration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepros-6.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/cat-list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/catalog-product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/catalog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/inspiration-item.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/inspiration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,12 +87,12 @@
       <updated>1523468405198</updated>
       <workItem from="1523468406604" duration="253000" />
       <workItem from="1523468670105" duration="8000" />
-      <workItem from="1523468777676" duration="401000" />
+      <workItem from="1523468777676" duration="494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="662000" />
+    <option name="totallyTimeSpent" value="755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="30" width="1711" height="1000" extended-state="0" />
